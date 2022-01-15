@@ -1,0 +1,782 @@
+header {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    margin-bottom: 1%;
+}
+.home-btn {
+    width: 10vh;
+    height: 10vh;
+    background-color: ThreeDDarkshadow;
+    color: white;
+    padding: 0.8%;
+    font-size: 350%;
+    float: left;
+}
+
+.login-juge {
+    padding-top: 1%;
+    padding-left: 30%;
+    float: left;
+}
+
+.main {
+    height: 80%;
+}
+
+.side-bar {
+    width: 15%;
+    height: 99%;
+    border-right: solid black;
+    margin-left: 1%;
+    float: left;
+}
+
+.paint-btn{
+    display: inline-block;
+    width: 90%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    border:1px solid black;
+    color: black;
+    outline: none;
+    transition: all 0.4s ease-out;
+}
+
+.paint-btn:hover{
+    border-color:transparent;
+    color: #fff;
+    background: linear-gradient(270deg, #666666 0%, #333333 50%, black 100%);
+    background-size: 200% auto;
+    background-position: right center;
+}
+
+.main-center {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.check-main-center {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.shop-list-title {
+    height: 7%;
+    width: 80.5%;
+    margin-left: 17%;
+    border-bottom:0.5px solid #555555;
+}
+.title-left {
+    width: 50%;
+    float: left;
+}
+.title-right {
+    width: 50%;
+    padding-left: 15%;
+    float: left;
+}
+
+.shop-main-center {
+    width: 82%;
+    height: 90%;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+
+.shop-goods {
+    width: 24.5%;
+    height: 48%;
+    margin-top: 0.3%;
+    border-collapse: collapse;
+    white-space: nowrap;
+    box-shadow: 0px 3px 5px lightgray;
+    float: left;
+}
+
+.shop-goods-img {
+    width: 90%;
+    height: 75%;
+    margin: 3% auto;
+}
+.paging {
+    width: 100%;
+    height: 10%;
+    margin-top: 2%;
+    padding : 1%;
+    border-top: 2px solid #DDDDDD;
+    text-align: center;
+    float: left;
+}
+.paging-bottom {
+    width: 82%;
+    height: 7.2%;
+    margin-top: 2%;
+    padding : 1%;
+    border-top: 2px solid #DDDDDD;
+    text-align: center;
+    position: fixed; bottom : 8%;
+    float: left;
+}
+.now-page {
+    color: gainsboro;
+    background-color: #333333;
+    border: 2px solid #111111;
+    border-radius: 3px;
+}
+
+.goods-main-center {
+    width: 70%;
+    height: 100%;
+    padding-left: 3%;
+    float: left;
+}
+
+.producdt-add-main-center {
+    width: 70%;
+    height: 100%;
+    padding-left: 3%;
+    margin-left: 25%;
+    float: left;
+}
+
+.product-main-center {
+    width: 42%;
+    margin: 0 auto;
+}
+
+.product-img {
+    width: 30%;
+    height: 40%;
+    box-shadow: 0px 3px 5px lightgray;
+    float: left;
+}
+
+.edit-img {
+    width: 40%;
+    height: 10%;
+}
+
+.product-summry {
+    width: 70%;
+    height: 50%;
+    padding-left: 2%;
+    position:relative;
+    float: left;
+}
+
+.product-exp {
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+
+.product-exp-box {
+    width: 70%;
+    height: 30%;
+    padding: 0.5%;
+    box-shadow: 0px 3px 5px lightgray;
+    border: solid lightgray;
+    border-width: thin;
+    overflow-x: scroll;
+}
+
+.product-edit-btns {
+    width: 100%;
+    padding-left: 45%;
+}
+
+.product-show-btn {
+    width: 100%;
+    margin-top: 1%;
+    padding-left: 50%;
+}
+
+.check-img {
+    width: 45%;
+    height: 30%;
+    box-shadow: 0px 3px 5px lightgray;
+    float: left;
+}
+
+.check-summry {
+    width: 55%;
+    height: 5%;
+    padding-left: 5%;
+    float: left;
+}
+
+.check-summry-null {
+    width: 55%;
+    height: 15%;
+    float: left;
+}
+
+.check-exp {
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+
+.dele-product-img {
+    width: 50%;
+    height:35%;
+    float: left;
+}
+
+.dele-product {
+    width: 50%;
+    height: 40%;
+    padding: 2%;
+    float: left;
+}
+
+.main-center-lage {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.table-header  th{
+    text-align: center;
+    background-color: InfoBackground;
+}
+
+.list-frame {
+    height: 70%;
+    background-color: Menu;
+    border: solid black;
+    background-color: lightgray;
+    border-width: thin;
+    overflow-x: scroll;
+    }
+    .table-col {
+    background-color: white;
+    border-collapse: collapse;
+    white-space: nowrap;
+    }
+
+.goods-img {
+    width: 45%;
+    height: 55%;
+    box-shadow: 0px 3px 5px lightgray;
+    float: left;
+}
+
+.goods-summry {
+    width: 55%;
+    height: 55%;
+    padding-left: 2%;
+    position:relative;
+    float: left;
+}
+.product-qty {
+    width: 35%;
+    margin-top: 15%;
+    float: left;
+}
+.goods-btns {
+    width: 50%;
+    margin-top: 15%;
+    float: left;
+}
+
+.goods-exp {
+    width: 100%;
+    height: 40%;
+    margin-top: 2%;
+    padding: 0.5%;
+    box-shadow: 0px 3px 5px lightgray;
+    border: solid lightgray;
+    border-width: thin;
+    overflow-x: scroll;
+    float: left;
+}
+
+.cart-list {
+    width: 100%;
+    height: 80%;
+    border: solid black;
+    border-width: thin;
+    background-color: lightgray;
+    overflow-x: scroll;
+}
+
+.cart-row {
+    width: 100%;
+    height: 23%;
+    background-color: white;
+    border: solid black;
+    border-width: thin;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+.cart-img {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.cart-summry {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.order-cofirm-top {
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+
+.order-cofirm-left {
+    width: 50%;
+    height: 80%;
+    float: left;
+}
+
+.order-cofirm-list {
+    width: 100%;
+    height: 95%;
+    border: solid black;
+    border-width: thin;
+    background-color: lightgray;
+    overflow-x: scroll;
+}
+
+.order-cofirm-up {
+    width: 50%;
+    height: 65%;
+    padding-left: 5%;
+    float: left;
+}
+
+.order-cofirm-down {
+    width: 20%;
+    height: 15%;
+    padding-left: 5%;
+    float: left;
+}
+
+.buy-top {
+    width: 100%;
+    height: 20%;
+}
+
+.buy-middle {
+    width: 100%;
+    height: 30%;
+    border: solid ThreeDFace;
+    border-width: thin;
+    overflow-x: scroll;
+}
+
+.buy-buttom {
+    width: 100%;
+    height: 50%;
+}
+
+footer {
+    width: 100%;
+    height: 7.5%;
+    background-color: black;
+    color: #ffff;
+    float: left;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+.cartin-btn {
+    border-radius: 5px;
+    background-color: #FF4500;
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 3px 5px lightgray;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+
+.admin-btn {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #1babdb;
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 3px 5px lightgray;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+
+.admin-btn a {
+    width: 50%;
+}
+
+.admin-btn-red {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #FF4500;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 3px 5px lightgray;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #1babdb;
+    color: white;
+    box-shadow: 0px 3px 5px lightgray;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+
+.login-out {
+    float: right;
+}
+.login-out-btn {
+    height: 100%;
+    width: 100px;
+    background-color: #FF4500;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+
+.cart-look {
+    padding-right: 35px;
+    float: right;
+}
+.cart-btn {
+    height: 100%;
+    width: 150%;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+
+.my-page {
+    padding-right: 2px;
+    float: right;
+}
+.my-page-btn {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+
+.my-edit-btn {
+    width: 90%;
+    height: 20%;
+    background-color: Window;
+    border-radius: 10px;
+    border: 1px solid ThreeDDarkshadow;
+    box-shadow: 0px 3px 5px lightgray;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+.my-edit-btn:active {
+    transform: translateY(2px);
+}
+
+.order-history-side {
+    width: 30%;
+    height: 99%;
+    margin-left: 2%;
+    float: left;
+}
+.history-side-top {
+    width: 100%;
+    height: 90%;
+    padding: 0 1%;
+    border: 3px solid ThreeDDarkshadow;
+    box-shadow: 0px 3px 5px lightgray;
+}
+.history-side-bottom {
+    width: 100%;
+    height: 10%;
+    padding: 5% 1% 0%;
+}
+
+
+.order-main-center {
+    width: 60%;
+    height: 99%;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+.order-history-box {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 1%;
+    border: 1px solid ThreeDDarkshadow;
+}
+.order-history-box-low {
+    width: 100%;
+    height: 20%;
+    margin-top: -5%;
+    margin-bottom: 1%;
+    border-right: 1px solid ThreeDDarkshadow;
+    border-left: 1px solid ThreeDDarkshadow;
+    border-bottom: 1px solid ThreeDDarkshadow;
+}
+.order-history-head {
+    width: 100%;
+    height: 30%;
+    padding: 0.5%;
+    background-color: darkgray;
+}
+.order-history-null-head {
+    width: 100%;
+    height: 30%;
+}
+.order-img {
+    width: 15%;
+    height: 70%;
+    margin-right: 3%;
+    float: left;
+}
+.order-history-sub {
+    width: 55%;
+    height: 70%;
+    padding: 1%;
+    float: left;
+}
+.order-status {
+    width: 25%;
+    height: 70%;
+    padding: 0.5%;
+    float: right;
+}
+.no-cancel {
+    font-size: 70%;
+    color: red;
+}
+
+.order-top-center {
+    width: 60%;
+    height: 8%;
+    margin: 0 auto 0.5%;
+    padding: 0.5%;
+    border: 1px solid #999999;
+    text-align: center;
+}
+.order-middle-center {
+    width: 60%;
+    height: 85%;
+    margin: 0 auto;
+    border: 1px solid ThreeDDarkshadow;
+    overflow-x: scroll;
+}
+.order-buttom-center {
+    width: 60%;
+    height: 5%;
+    margin: 0.5% auto 0;
+    text-align: center;
+}
+.order-box {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 1%;
+    border: 1px solid ThreeDDarkshadow;
+}
+.order-box-low {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 1%;
+    margin-top: -4.6%;
+    border-right: 1px solid ThreeDDarkshadow;
+    border-left: 1px solid ThreeDDarkshadow;
+    border-bottom: 1px solid ThreeDDarkshadow;
+}
+.order-head {
+    width: 100%;
+    height: 30%;
+    padding: 0.5%;
+    background-color: darkgray;
+}
+.order-null-head {
+    width: 100%;
+    height: 30%;
+}
+.order-head-left {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.order-head-right {
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    float: left;
+}
+.order-sub {
+    width: 65%;
+    height: 70%;
+    padding: 1%;
+    border: 1px solid #CCCCCC;
+    float: left;
+}
+.order-status-box {
+    width: 35%;
+    height: 70%;
+    background-color: #DDDDDD;
+    border: 1px solid #CCCCCC;
+    float: right;
+}
+.order-status-select {
+    margin: 1.5% 2% 0.5%;
+    text-align: center;
+    float: left;
+}
+.status-update-btn {
+    margin-top: 1.5%;
+    margin-right: 3%;
+    text-align: center;
+    float: right;
+}
+.update-btn {
+    height: 85%;
+}
+.process-complet {
+    color: red;
+}
+
+.btn-title {
+    padding-top: 0.5%;
+    padding-left: 3%;
+}
+
+.btn-subject {
+    padding-left: 5%;
+    color: #444444;
+}
+
+.btn-w40 {
+    width: 40%;
+    margin: 10% auto;
+}
+
+.OK-btn {
+    width: 100%;
+    background-color: #FF4500;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px lightgray;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+.OK-btn:active {
+    transform: translateY(2px);
+}
+
+.return-btn {
+    width: 100%;
+    background-color: #1babdb;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px lightgray;
+    transition: 0.2s;
+}
+.return-btn:active {
+    transform: translateY(2px);
+}
+
+
+/* レスポンシブ対応 */
+/* PCサイズ（1440px）以上の際に適用される設定 */
+@media screen and (min-width: 1440px) {
+    /* ヘッダー */
+    .home-btn {     /* ホームボタン */
+        width: 10vh;
+        height: 10vh;
+        background-color: ThreeDDarkshadow;
+        color: white;
+        padding: 0.8%;
+        font-size: 450%;
+        float: left;
+    }
+}
+/* PCサイズ（1920px）以上の際に適用される設定 */
+@media screen and (min-width: 1920px) {
+    /* ヘッダー */
+    .home-btn {     /* ホームボタン */
+        width: 10vh;
+        height: 10vh;
+        background-color: ThreeDDarkshadow;
+        color: white;
+        padding: 0.6%;
+        font-size: 400%;
+        float: left;
+    }
+    .login-out-btn {    /* ログインログアウト */
+        height: 100%;
+        width: 130px;
+        background-color: #FF4500;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        transition: 0.2s;
+        margin-bottom: 10px;
+    }
+
+    h3{     /* 画面タイトル文字サイズ */
+        font-size: 30px;
+        }
+    body{   /* 全体の文字サイズ */
+        font-size: 20px;
+        }
+}
+/* PCサイズ（2560px）以上の際に適用される設定 */
+@media screen and (min-width: 2560px) {
+    /* ヘッダー */
+    .home-btn {     /* ホームボタン */
+        width: 10vh;
+        height: 10vh;
+        background-color: ThreeDDarkshadow;
+        color: white;
+        padding: 0.6%;
+        font-size: 350%;
+        float: left;
+    }
+    .login-out-btn {    /* ログインログアウト */
+        height: 100%;
+        width: 210px;
+        background-color: #FF4500;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        transition: 0.2s;
+        margin-bottom: 10px;
+    }
+    .no-cancel {
+        font-size: 75%;
+        color: red;
+    }
+    h4{
+        font-size: 35px;
+        }
+    h3{     /* 画面タイトル文字サイズ */
+        font-size: 50px;
+        }
+    body{   /* 全体の文字サイズ */
+        font-size: 30px;
+        }
+    font{
+        font-size: 150%;
+    }
+}
